@@ -231,7 +231,8 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
   /// `'file://${file.path}'`.
   VideoPlayerController.file(
     File file,
-    this.useCache, {
+     {
+    this.useCache=false,
     this.closedCaptionFile,
     this.videoPlayerOptions,
   })  : dataSource = 'file://${file.path}',
