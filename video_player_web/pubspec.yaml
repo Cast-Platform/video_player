@@ -27,9 +27,12 @@ dependencies:
 #    path: ../video_player_platform_interface
   # workaround for success build checks in PR
     git:
-      url: git@github.com:mavericksunny/plugins.git
-      ref: caching
-      path: packages/video_player/video_player_platform_interface
+      url: https://github.com/Cast-Platform/video_player.git
+      ref: master
+      path: video_player_platform_interface
+      # url: git@github.com:mavericksunny/plugins.git
+      # ref: caching
+      # path: packages/video_player/video_player_platform_interface
   # video_player_platform_interface: ">=4.2.0 <6.0.0"
 
 dev_dependencies:
