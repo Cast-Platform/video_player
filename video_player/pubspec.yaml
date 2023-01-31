@@ -26,7 +26,7 @@ dependencies:
   # workaround for success build checks in PR
     git:
       url: https://github.com/Cast-Platform/video_player.git
-      ref: master
+      ref: main
       path: video_player_platform_interface
   # The design on https://flutter.dev/go/federated-plugins was to leave
   # this constraint as "any". We cannot do it right now as it fails pub publish
@@ -38,7 +38,7 @@ dependencies:
     # workaround for success build checks in PR
     git:
       url: https://github.com/Cast-Platform/video_player.git
-      ref: master
+      ref: main
       path: video_player_web
       # url: git@github.com:mavericksunny/plugins.git
       # ref: caching

@@ -28,7 +28,7 @@ dependencies:
   # workaround for success build checks in PR
     git:
       url: https://github.com/Cast-Platform/video_player.git
-      # ref: master
+      ref: main
       path: video_player_platform_interface
       # url: git@github.com:mavericksunny/plugins.git
       # ref: caching
